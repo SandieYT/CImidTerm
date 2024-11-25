@@ -1,0 +1,148 @@
+body {
+  background-color: #192026;
+  font-weight: normal;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0;
+  margin-top: 0;
+  gap: 0;
+}
+
+* {
+  letter-spacing: 1px;
+  font-family: Poppins;
+  color: white;
+}
+
+.px32 {
+  font-size: 32px;
+}
+
+.px22 {
+  font-size: 22px;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+
+  color: #868686;
+}
+
+.Title {
+  font-size: 32px;
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 0.5px;
+  size: 30%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+nav ul li {
+  list-style-type: none
+}
+
+.search {
+  background-color: #374151;
+  color: #868686;
+  border-radius: 64px;
+  width: 500px;
+  height: 32px;
+  flex:0;
+  border: 0;
+}
+
+.grey {
+  color: #868686;
+}
+
+.overlay {
+  position: absolute;
+  top: 5%;
+  width: 50%;
+  transform: translate(2%,-5%);
+  z-index: 2;
+  aspect-ratio: '0.59835979';
+
+}
+
+.overlay4 {
+  position: absolute;
+  top: 240px;
+  z-index: 2;
+  text-align: center;
+  
+  width: 100%;
+  left: 0%;
+  right: 0%;
+}
+
+.overlay2 {
+  background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+  z-index: 1;
+  position: absolute;
+  border-radius: 16px;
+}
+
+.carousel {
+  
+ width: 100%;
+ height: 400px;
+}
+
+.img {
+ object-fit: cover;
+ border-radius: 16px;
+ z-index: 0;
+ position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex > div > img {
+  width: 170px;
+  height: 284px;
+}
+
+.flex > div {
+ height: 170px;
+ aspect-ratio: '0.59835979';
+}
+
+.overlay3 {
+  background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+  z-index: 1;
+  position: absolute;
+  border-radius: 14px;
+  width: 170px;
+  height: 284px;
+}
+
+.relative {
+  position: relative;
+}
+
+.px18 {
+  font-size: 18px;
+}
+
+.bottom {
+  position: absolute;
+  top: 280px;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
